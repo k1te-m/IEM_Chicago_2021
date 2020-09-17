@@ -11,6 +11,7 @@
     left: 0;
     right: 0;
     white-space: nowrap;
+    width: 100%;
 }
 li {
     list-style-type: none;
@@ -29,23 +30,33 @@ a {
 }
 body {
     background-color: #1f2833;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #IEM2020 {
     position: absolute;
-    top: 82px;
+    top: 80px;
     left: 0;
     border: 5px solid #45A29E;
     width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main {
     position: absolute;
-    margin: 0 auto;
     width: 55%;
-    top: 85px;
+    top: 100px;
     right: 80px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 p {
     color:  #45A29E;
+}
+#parent {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+h1 {
+    font-size: 30px; 
 }
