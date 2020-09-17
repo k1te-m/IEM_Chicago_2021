@@ -1,27 +1,40 @@
+* {
+    box-sizing: border-box;
+}
 .nav {
-    background-color: #333;
+    background-color: #0B0C10;
     overflow: hidden;
-    position: relative;
     margin: 0;
     padding: 0;
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    white-space: nowrap;
 }
 li {
     list-style-type: none;
     margin: 0px 15px 0px 15px;
     padding: 0 auto;
-    display: inline;
     font-size: 24px;
     font-weight: bold;
     position: relative;
+    display: inline;
+    overflow: hidden;
 }
 a {
-    color: wheat;
+    color: #45A29E;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body {
-    background-color: gainsboro;
+    background-color: #1f2833;
 }
 #IEM2020 {
-    position: fixed;
+    position: absolute;
+    top: 82px;
     left: 0;
+    border: 5px solid #45A29E;
+    width: 40%;
 }
