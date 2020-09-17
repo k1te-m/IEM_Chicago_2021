@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-.nav {
+.topnav {
     background-color: #0B0C10;
     overflow: hidden;
     margin: 0;
@@ -26,10 +26,10 @@ a {
     color: #45A29E;
     font-size: 20px;
     text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body {
     background-color: #1f2833;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 #IEM2020 {
     position: absolute;
@@ -37,4 +37,15 @@ body {
     left: 0;
     border: 5px solid #45A29E;
     width: 40%;
+}
+.main {
+    position: absolute;
+    margin: 0 auto;
+    width: 55%;
+    top: 85px;
+    right: 80px;
+    
+}
+p {
+    color:  #45A29E;
 }
