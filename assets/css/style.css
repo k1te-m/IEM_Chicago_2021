@@ -1,77 +1,13 @@
-* {
-  box-sizing: border-box;
-}
-.topnav {
-  background-color: #0b0c10;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  white-space: nowrap;
-  width: 100%;
-}
-li {
-  list-style-type: none;
-  margin: 0px 15px 0px 15px;
-  padding: 0 auto;
-  font-size: 24px;
-  font-weight: bold;
-  position: relative;
-  display: inline;
-  overflow: hidden;
-}
-a {
-  color: #45a29e;
-  font-size: 20px;
-  text-decoration: none;
-}
 body {
-  background-color: #1f2833;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: slategray;
 }
-#IEM2020 {
-  position: fixed;
-  top: 79px;
-  left: 0;
-  border: 5px solid #45a29e;
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
+.containter {
+  display: flex;
+  flex-wrap: nowrap;
 }
-.main {
-  position: absolute;
-  width: 55%;
-  top: 100px;
-  right: 80px;
-  margin-left: auto;
-  margin-right: auto;
-}
-p {
-  color: #45a29e;
-}
-#parent {
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 800px;
-}
-h1 {
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: underline;
-  background: #0b0c10;
-  border: 5px solid #45a29e;
-  padding: 10px;
-  color: #45a29e;
-  border-radius: 25px;
-  text-align: center;
-}
-#head2 {
-  position: fixed;
-}
-#description {
-    position: fixed;
-    padding-top: 50px; 
+#mainImg img {
+  border: 5px solid black;
+  border-radius: 1px;
+  height: 750px;
+  width: 100%;
 }
